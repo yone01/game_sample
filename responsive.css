@@ -1,0 +1,613 @@
+@media all and (max-width: 1200px) {
+  .header-right {
+    margin-right: 25px;
+  }
+  
+  p.coment {
+    padding-top: 65px;
+  }
+  
+  .coment-first {
+    padding-top: 0;
+    margin-left: 20px;
+  }
+  
+  p.coment-monsuto {
+    margin-top: 80px;
+  }
+  
+  .main-coment p {
+    padding-top: 0;
+  }
+  
+  .creater-main {
+    padding-bottom: 0;
+  }
+  
+  .coment-first-monsuto {
+    margin-left: 20px;
+  }
+  
+  .creater-main-coment-pazudora {
+    margin-top: 150px;
+    height: 500px;
+  }
+  
+  img.coment-image-pazudora {
+    margin-top: 18px;
+  }
+  
+  .creater-coment-monsuto {
+    height: 850px;
+  }
+  
+  .creater-coment-pokemon {
+    height: 480px;
+  }
+  
+  .creater-main-coment-pokemon {
+    margin-top: 50px;
+    height: 750px;
+  }
+  
+  .creater-main-coment-monsuto {
+    height: 300px;
+  }
+  
+  .coment-image-pokemon {
+    padding-top: 30px;
+  }
+  
+  .creater-main-coment-monsuto,.creater-main-coment-pokemon,.creater-main-coment-pazudora {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media all and (min-width: 1000px) {
+  div#slider {
+    width: 1000px;
+    height: 650px;
+  }
+    
+ li.slider-image p {
+    width: 930px;
+  }
+  
+  li#slider1 {
+    width: 1000px;
+    height: 460px;
+  }
+  
+  li#slider2 {
+    width: 1000px;
+    height: 460px;
+  }
+  
+  li#slider3 {
+    width: 1000px;
+    height: 460px;
+  }
+  
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  p.coment-pazudora {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  p.coment-monsuto {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  p.coment-pokemon {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .creater-coment-pazudora {
+    height: 620px;
+  }
+  
+  .creater-main-coment-pazudora {
+    margin-top: 0;
+    height: 380px;
+  }
+  
+  .creater-main-coment-pokemon {
+    height: 550px;
+  }
+  
+  .creater-coment {
+    height: 250px;
+    margin-top: 150px;
+  }
+  
+  .creater-coment-pokemon {
+    height: 300px;
+  }
+  
+  p.coment {
+    padding-top: 0;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  
+  .creater-coment-monsuto {
+    height: 600px;
+  }
+  
+  img.creater-image {
+    height: 240px;
+  }
+  
+  .creater-warraper {
+    margin-top: 200px;
+    height: 180px;
+  }
+  
+  p.coment-first,p.coment-first-monsuto {
+    width: 45%;
+    padding-top: 0;
+    font-size: 13px;
+    margin-left: 0;
+  }
+  
+  p.coment-first {
+    padding-top: 10px;
+  }
+  
+  .coment-first-pokemon {
+    width: 45%;
+    padding-top: 0;
+    font-size: 13px;
+    margin-left: 0;
+  }
+  
+  .creater-main-coment {
+    margin-top: 0;
+    height: 250px;
+  }
+  
+  p.coment-second {
+    width: 45%;
+    padding-top: 30px;
+    font-size: 13px;
+  }
+  
+  p.coment-second-pazudora {
+    width: 45%;
+    font-size: 13px;
+  }
+  
+  p.coment-second-monsuto,p.coment-first-monsuto,.coment-second-pokemon {
+    font-size: 13px;
+  }
+  
+  .creater-main {
+    padding-bottom: 0;
+  }
+  
+}
+
+@media all and (max-width: 800px) {
+  p.comment-first,.coment-first-monsuto,.coment-first-pokemon {
+    width: 45%;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  
+  .coment-first-monsuto,.coment-first-pokemon {
+    margin: auto;
+    padding-top: 0;
+  }
+  
+  p.coment-second-monsuto {
+    padding-top: 0;
+  }
+  
+  .creater-coment-monsuto {
+    height: 550px;
+    margin-top: 200px;
+  }
+  
+  .creater-coment-pokemon {
+    height: 300px;
+  }
+  
+  .creater-main-coment-monsuto {
+    margin-bottom: 0;
+    height: 250px;
+  }
+  
+  p.coment-pazudora {
+    top: 0;
+    margin-top: 17px;
+    font-size: 18px;
+  }
+  
+  p.coment-monsuto {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  
+  p.coment-pokemon {
+    font-size: 17px;
+    margin-top: 40px;
+  }
+  
+  .creater-coment-pokemon {
+    margin-top: 200px;
+  }
+  
+  .creater-coment-pazudora {
+    height: 500px;
+    margin-top: 200px;
+  }
+  
+  .creater-main-coment-pazudora {
+    margin-top: 100px;
+    height: 350px;
+  }
+  
+  .creater-main-coment-pokemon {
+    height: 550px;
+  }
+  
+  p.coment-second,p.coment-second-monsuto,p.coment-second-pokemon {
+    width: 45%;
+    font-size: 13px;
+    padding-top: 20px;
+  }
+  
+  p.coment-second {
+    padding-top: 10px;
+  }
+  
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-left {
+    float: none;
+  }
+  
+  h1.title-game {
+    text-align: center;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+    max-width: 670px;
+    background-size: 100%;
+  }
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    margin-top: 80px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+  
+  img.creater-image {
+    height: 100%;
+    max-height: 300px;
+    min-height: 255px;
+    width: 100%;
+    float: none;
+    margin: 30px auto 0;
+  }
+  
+  .creater-icon {
+    margin: auto;
+  }
+  
+  .creater-warraper {
+    height: 450px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  p.coment,p.coment-pazudora,p.coment-monsuto,p.coment-pokemon {
+    padding-top: 310px;
+    font-size: 15px;
+    margin-top: 15px;
+    width: 100%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  
+  p.coment {
+    padding-top: 350px;
+  }
+  
+  p.coment-monsuto {
+    padding-top: 20px;
+  }
+  
+  p.coment-pokemon {
+    padding-top: 20px;
+  }
+  
+  p.coment-pazudora {
+    padding-top: 330px;
+  }
+  
+  .creaters-top {
+    width: 100%;
+  }
+  
+  .creater-coment,.creater-coment-pazudora,.creater-coment-monsuto,.creater-coment-pokemon {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .creater-coment {
+    height: 400px;
+  }
+  
+  .creater-coment-pazudora {
+    height: 900px;
+  }
+  
+  .creater-coment-monsuto {
+    height: 950px;
+  }
+  
+  .creater-coment-pokemon {
+    height: 500px;
+  }
+  
+  .coment-image-first {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+  
+  p.coment-first,p.creater-coment-pazudora,p.coment-first-monsuto ,.coment-first-pokemon {
+    width: 80%;
+    font-size: 13px;
+    float: none;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .main-coment {
+    padding-top: 50px;
+  }
+  
+  .creater-main-coment {
+    margin-top: 50px;
+    height: 300px;
+  }
+  
+  p.coment-second,p.coment-second-monsuto,p.coment-second-pokemon,p.coment-second-pazudora {
+    width: 81%;
+    font-size: 13px;
+    padding-top: 40px;
+    float: none;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .coment-image,.coment-image-pazudora,.coment-image-monsuto,.coment-image-pokemon {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+  
+  .creater-main-coment-pazudora {
+    height: 550px;
+    margin-top: 100px;
+  }
+  
+  .creater-main-coment-pokemon {
+    margin-top: 0;
+  }
+  
+  .creater-main-coment-pokemon {
+    height: 580px;
+  }
+  
+  .creater-main {
+    margin-bottom: 100px;
+    width: 93%;
+    padding-bottom: 100px;
+  }
+  
+  .creater-video {
+    margin-bottom: 80px;
+  }
+  
+  .video-coment {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .game-lesson {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .creaters-top {
+    padding-bottom: 50px;
+  }
+  
+  div#slider {
+    width: 375px;
+    height: 350%;
+  }
+  
+  li.slider-image p {
+    width: 300px !important;
+  }
+  
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  li#slider1 {
+    width: 375px;
+  }
+  
+  li#slider2 {
+    width: 375px;
+  }
+  
+  li#slider3 {
+    width: 375px;
+  }
+  
+  .game-lessons {
+    width: 80%;
+    float: none;
+    margin: auto
+  }
+  
+  ul.aviaslider p {
+    font-size: 13px;
+  }
+  
+  p.video-coment {
+    padding-top: 10px;
+}
+  
+}
+
+@media all and (max-width: 350px) {
+  div#slider {
+    width: 300px;
+    height: 320px;
+  }
+    
+ li.slider-image p {
+    width: 240px !important;
+  }
+  
+  li#slider1 {
+    width: 300px;
+    height: 200px;
+  }
+  
+  li#slider2 {
+    width: 300px;
+    height: 200px;
+  }
+  
+  li#slider3 {
+    width: 300px;
+    height: 200px;
+  }
+  
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media all and (max-width: 420px) {
+  p.coment-pazudora {
+    padding-top: 300px;
+  }
+  
+  p.coment {
+    padding-top: 325px;
+  }
+  
+  .creater-coment {
+    height: 300px;
+  }
+  
+  .creater-coment-pazudora {
+    height: 800px;
+ }
+  
+  .creater-coment-monsuto {
+    height: 920px;
+  }
+  
+  .creater-coment-pokemon {
+    height: 480px;
+  }
+  
+  .creater-main {
+    padding-bottom: 0;
+  }
+  
+  .creater-main-coment-pokemon {
+    height: 650px;
+  }
+  
+  p.coment-monsuto {
+    padding-top: 10px;
+  }
+}
+
+@media all and (max-width: 360px) {
+div#slider {
+    width: 355px;
+  }
+  
+  li.slider-image p {
+    width: 355px;
+  }
+  
+  li#slider1 {
+    width: 355px;
+  }
+  
+  li#slider2 {
+    width: 355px;
+  }
+  
+  li#slider3 {
+    width: 355px;
+  }
+}
