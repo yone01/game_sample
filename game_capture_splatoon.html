@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Capture</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     
+  </head>
+  
+  
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="game_capture_top.html"><h1 class="title-game">Game Capture</h1></a>
+        </div>
+      </div>
+    </header>
+    
+    
+      
+      <div class="creater-warraper">
+        <div class="container">
+          <div class="creater-icon">
+            <img src="images/splatoon-icon.jpg" class="creater-image">
+            <P class="coment">塗って、塗られて、塗り替えして。<br>世界中のライバルと、アツいバトルを繰り広げよう。</P>
+          </div>
+        </div>
+      </div>
+      
+    <div class="creater-main">
+    
+      <div class="creater-coment">
+        <div class="main-coment-first">
+            <img src="images/first_visual.jpg" class="coment-image-first">
+            <p class="coment-first">ナワバリバトルは３分間地面を塗りまくって、面積(ナワバリ)が多いチームの勝ち！<br>地面を塗りまくり、チームのナワバリを広げて勝利を目指せ！ガチマッチやチーム戦では４種類のバトルが用意されておりウデマエやランキングをどんどん上げていこう！</p>
+        </div>
+      </div>
+      <div class="creater-main-coment">
+        <div class="main-coment">
+          <img src="images/splatoon-weapon.jpg" class="coment-image">
+          <p class="coment-second">メインウェポン・サブウェポン・スペシャルウェポンの３つがセットとなっている<br>武器ごとに多種多様な性能を見極め、自分好みのスタイルを見つけよう！</p>
+        </div>
+      </div>
+      <div class="clear-l"></div>
+      <div class="clear-r"></div>
+      
+    </div>
+
+   <div class="video">
+    <div id="slider">
+      <ul class="aviaslider" id="frontpage-slider">
+		<li class="slider-image" id="slider1">
+          <p>スプラトゥーンとは？！</p>
+          <iframe width="520" height="315" src="https://www.youtube.com/embed/WnR_CT2aSpA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p>様々な武器やスペシャルを使って敵を倒していこう！！
+          </p>
+        </li>
+		<li class="slider-image" id="slider2">
+          <p>オススメの動画</p>
+        <iframe width="520" height="315" right="-30px" src="https://www.youtube.com/embed/3TX3EicYn_Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p class="video-coment">
+          ４タテからのリスポン前で勝利のジェットパック！<br>かっこいい！！</p>
+        </li>
+		<li class="slider-image" id="slider3">
+          <p>これが世界大会だ！！</p>
+        <iframe width="525" height="315" src="https://www.youtube.com/embed/_N-v7hSVtJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p class="video-coment">仲間とチームで大会に参加しよう！<br>これが世界最高峰！！</p>
+        </li>
+      </ul>
+      <span id="prev">△</span>
+      <span id="next">△</span>
+    </div>
+		<ol class="flex-control-nav flex-control-paging">
+		  <li><a class="flex-active">1</a></li>
+		  <li><a>2</a></li>
+		  <li><a>3</a></li>
+		</ol>
+    </div>
+     
+    <div class="game-lessons">
+          <div class="creaters-top">
+            <div class="creaters-icon">
+              <a href="game_capture_monsuto.html"><img src="images/monsuto-icon.jpg" class="favorite-icon"></a>
+            </div>
+            <p class="text-contents">最大4人同時に楽しめる「ひっぱりハンティングRPG!」<br>
+モンスターマスターになって様々な能力を持つモンスターをたくさん集めよう！</p>
+          </div>
+          <div class="creaters-top">
+            <div class="creaters-icon">
+              <a href="game_capture_pokemon.html"><img src="images/pokemon-top.jpg" class="favorite-icon"></a>
+            </div>
+            <p class="text-contents">ポケモンを集めて、育てて、バトルを楽しもう！<br>お友だちや世界中の人たちと、ポケモンを交換することもできるぞ！</p>
+          </div>
+          <div class="creaters-top">
+            <div class="creaters-icon">
+              <a href="game_capture_pazudora.html"><img src="images/pazudora-icon.jpg" class="favorite-icon"></a>
+            </div>
+            <p class="text-contents">パズルで大冒険! <br>
+「パズル＆ドラゴンズ」はモンスターと一緒にパズルの力で冒険するゲームです。
+世界中のダンジョンを踏破して、伝説のドラゴンを見つけ出そう!</p>
+          </div>
+          <div class="clear"></div>
+      </div>
+      
+    
+    
+    <footer>
+      <div class="container">
+        <a id="top-btn" class="footer">back to top</a>
+      </div>
+    </footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      
+    $('#top-btn').click(function(){
+    $('html,body').animate({ 
+      'scrollTop': 0 
+    }, 'slow');
+  });
+      
+       var size = 0;
+var slideNum = 0;
+var xwidth = $('div#slider').width();
+var timerID;
+$('.flex-control-nav.flex-control-paging li').on('click', function(){
+	var index = $('.flex-control-nav.flex-control-paging li').index(this);
+	$('.flex-control-nav.flex-control-paging').find('li a').removeClass('flex-active');
+	$(this).find('a').addClass('flex-active');
+ 
+	var slideX = xwidth * index;
+	var traStr = 'translate3d(-'+slideX+'px,0,0)'
+ 
+	$('.slider-image').css({
+		'-webkit-transform':traStr,
+	});
+ 
+});
+$(function(){
+	size = $('.flex-control-nav.flex-control-paging li').length;
+	    setTimeout('slide()'); //アニメーションを実行
+	});
+ 
+function slide() {
+    if(slideNum == size){slideNum=0;}
+	var slideX = xwidth * slideNum;
+	var traStr = 'translate3d(-'+slideX+'px,0,0)'
+	$('.flex-control-nav.flex-control-paging').find('li a').removeClass('flex-active');
+	$('.flex-control-nav.flex-control-paging li a').eq(slideNum).addClass('flex-active');
+ 
+	$('.slider-image').css({
+		'-webkit-transform':traStr,
+	});
+	slideNum++;
+    timerID = setTimeout('slide()', 6000); //アニメーションを繰り返す間隔
+}
+ 
+$('#next').on('click',function(){
+window.clearTimeout(timerID);
+ slide();
+});
+$('#prev').on('click',function(){
+window.clearTimeout(timerID);
+if(slideNum > 1){
+slideNum = slideNum - 2;
+}else{
+slideNum = size - 1;
+}
+ slide();
+});
+     
+    </script>
+    
+  </body>
+</html>
