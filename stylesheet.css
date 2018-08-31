@@ -1,0 +1,665 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1.title-game {
+  margin: 5px auto;
+  color: white;
+}
+
+.header-menu {
+  margin-top: 63px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.header-menu p {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(images/8f70c5ad3930e81d4e35dcbdb5d9edce.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 600px;
+  opacity: 0.8;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.top-icon {
+  height: 200px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  top: 36%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.creater-main {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.creater-warraper {
+  height: 300px;
+  background-color: #DCDCDC;
+  margin-top: 200px;
+}
+
+.creater-icon {
+  margin: 120px 30px 0px 30px;
+  width: 100%;
+  position: relative;
+}
+
+.create-coment {
+  float: right;
+  margin-top: 100px;
+}
+
+img.creater-image {
+  float: left;
+  width: 40%;
+  position: relative;
+  height: 350px;
+}
+
+p.coment {
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  padding-top: 75px;
+  width: 50%;
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 23px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.coment-first {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  margin: auto;
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.coment-image-first {
+  display: block;
+  float: right;
+  width: 48%;
+  max-height: 650px;
+  max-width: 440px;
+}
+
+.creater-main-coment {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.creater-coment {
+  height: 300px;
+  margin-top: 230px;
+}
+
+.main-coment p {
+  float: right;
+  width: 40%;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.coment-image {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.game-lessons {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+}
+
+img.favorite-icon {
+  margin: auto;
+}
+
+.favorite-icon {
+  height: 200px;
+}
+
+.creaters-icon {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.creaters-top {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+footer .container {
+  text-align: center;
+  font-family: 'Impact';
+}
+
+.footer {
+  color: black;
+}
+
+a#top-btn {
+    cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.slide-wrapper {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: #5e6f84;
+  padding: 60px 0;
+}
+
+.slide-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.change-btn-wrapper {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.prev-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+}
+
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+.slides {
+  padding: 0;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide img {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+
+ol,ul{
+  list-style:none;
+}
+
+div#slider {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 500px;
+    margin:20px auto 5px;
+}
+
+ul#frontpage-slider {
+    width: 1000%;
+}
+
+li#slider1 {
+    width: 600px;
+}
+
+li#slider2 {
+    width: 595px;
+}
+
+li#slider3 {
+    width: 600px;
+}
+
+li.slider-image {
+    float: left;
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease;
+    width: 500px;
+    padding-right: 80px;
+}
+
+li.slider-image p {
+  width: 520px;
+}
+
+li.slider-image img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.flex-control-paging{
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.flex-control-paging li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.flex-control-paging li a{
+    display: inline-block;
+    background: #ccc;
+    height: 8px;
+    width: 8px;
+    text-indent: 200%;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 50%;
+}
+
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active {
+    background: #0485EF;
+}
+
+span#prev,span#next {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    background: #000;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+    border-radius: 50%;
+    opacity: 0.3;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor:pointer;
+}
+
+span#prev{
+    left: -20px;
+    transform: rotate(-90deg);
+}
+
+span#next {
+    right: -20px;
+    transform: rotate(90deg);
+}
+
+span#prev:hover,span#next:hover {
+    opacity: 0.8;
+}
+
+li.slider-image p {
+  text-align: center;
+}
+
+p.video-coment {
+  text-align: center;
+}
+
+.video {
+  background-color: #f7f7f7;
+  padding-bottom: 30px;
+}
+
+.video p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','American Typewriter',sans-serif;
+}
+
+.flex-control-paging {
+  padding-right: 40px;
+}
+
+p.coment-pazudora {
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  width: 50%;
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 23px;
+  margin-right: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.creater-coment-pazudora {
+  height: 700px;
+  margin-top: 230px;
+}
+
+.creater-main-coment-pazudora {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.creater-main-coment-pazudora p {
+  padding-top: 0;
+}
+
+.coment-image-pazudora {
+  display: block;
+  float: left;
+  width: 50%;
+  max-height: 470px;
+}
+
+p.coment-monsuto {
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  width: 50%;
+  float: right;
+  position: absolute;
+  right: 0;
+  font-size: 23px;
+  margin-right: 30px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.creater-coment-monsuto {
+  height: 800px;
+  margin-top: 230px;
+}
+ 
+.coment-first-monsuto {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  margin: auto;
+  margin-left: 40px;
+}
+
+p.coment-second-monsuto {
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+.coment-image-monsuto {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.creater-main-coment-monsuto {
+  margin-bottom: 100px;
+  height: 100px;
+}
+
+p.coment-pokemon {
+  font-family: ヒラギノ角ゴシック, "Hiragino Sans", sans-serif;
+  width: 50%;
+  float: right;
+  position: absolute;
+  right: 0px;
+  font-size: 23px;
+  margin-right: 30px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.coment-first-pokemon {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  margin: auto;
+  margin-left: 40px;
+  max-height: 230px;
+}
+
+.creater-main-coment-pokemon {
+  height: 600px;
+  margin-top: 100px;
+}
+
+.coment-second-pokemon {
+  float: right;
+  width: 40%;
+  font-size: 18px;
+}
+
+.coment-image-pokemon {
+  display: block;
+  float: left;
+  width: 50%;
+  padding-top: 80px;
+}
+
+.creater-coment-pokemon {
+  height: 400px;
+  margin-top: 230px;
+}
